@@ -1,0 +1,26 @@
+#btn,
+#btn2 {
+    width: 125px;
+}
+body {
+    background-image: linear-gradient(to right, #00f, #8d1515, green);
+}
+#btn {
+    background-color: #05fd81;
+}
+#btn2 {
+    background-color: #172ad0;
+    padding-inline: 25px;
+}
+img {
+    padding-bottom: 50px;
+    padding-right: 100px;
+    margin-right: 50px;
+}
+h1 {
+    color: #000;
+}
+#result {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: xx-large;
+}
