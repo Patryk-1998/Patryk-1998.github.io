@@ -3,13 +3,15 @@
     width: 125px;
 }
 body {
-    background-image: linear-gradient(to right, #00f, #8d1515, green);
+    background-image: linear-gradient(to right, #38A2D7, #561139);
+    
+
 }
 #btn {
-    background-color: #05fd81;
+    background-color: #11ff00;
 }
 #btn2 {
-    background-color: #172ad0;
+    background-color: #00aaff;
     padding-inline: 25px;
 }
 img {
