@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(to right, #09203F , #537895);
+    margin: 0;
+    padding: 0;
+}
+
+
+.rias{
+    height: 35%;
+    width: 35%;
+    position: relative;
+    right: 5%;
+    
+}
+
+
+.main{
+    color: rgb(252, 0, 0);
+}
+
+.main-c{
+    color: chartreuse;
+}
+ 
+    
