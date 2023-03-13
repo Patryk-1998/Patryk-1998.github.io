@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to right, #0f3a73 , #537895);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.rias{
+    height: 35%;
+    width: 35%;
+    position: relative;
+    right: 1%;
+    
+}
+
+
+.main{
+    color: rgb(0, 8, 252);
+}
+
+.main-c{
+    color: chartreuse;
+}
+
+.paragraph{
+
+    color: rgb(85, 243, 11);
+    
+    
+   
+}
+
+
+  
+
+ 
+    
