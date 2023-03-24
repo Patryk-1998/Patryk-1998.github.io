@@ -35,7 +35,7 @@ function clickme() {
         document.getElementById('dice').src = "assets/images/pic6.jpg";   
     }
         }
-
+            
 
     function noclick() {
     
