@@ -163,3 +163,33 @@ body {
 .test-css__autocomplete {
   color: blue;
 }
+
+
+
+
+.dropdown-menu {
+
+  overflow: scroll;
+  max-height: 300px;
+  background-color: blueviolet;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(107, 255, 1);
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(43, 7, 245);
+}
+
+::-webkit-scrollbar-thumb:hover {
+     background: #b30000;
+}
