@@ -2,65 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap Site</title>
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico"/>
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="/assets/css/index.css">
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navigation</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="dice.html">Dice</a></li>
+              <li><a class="dropdown-item" href="calculator.html">Calculator</a></li>
+              <li><a class="dropdown-item" href="ToDoJs.html">ToDo</a></li>
+            </ul>
+          </li>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="dice.html">Dice</a>
-                <a class="dropdown-item" href="calculator.html">Calculator</a>
-                <a class="dropdown-item" href="ToDoJs.html">To Do List</a>
-
-              </div>
-            </li>
-            <li class="nav-item">
-             </li>
-          </ul>
-        </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
       <h1 class="main">This is my portfolio Website</h1>
 
 
       <div>
+
+        <img class="rias" src="assets/images/rias.jpg">
+      </div>
+      <div>
+
+        <img class="rias" src="assets/images/rias.jpg">
+      </div>
+      <div>
+
+        <img class="rias" src="assets/images/rias.jpg">
+      </div>
+      <div data-aos="zoom-out">
+
         <img class="rias" src="assets/images/rias.jpg">
       </div>
 
-        </a>
+      </a>
 
     </a>
-    <p><abbr title="Highschool DxD">DxD</abbr></p>
-
-    <div class="paragraph">
-
-    <p>
-      The story follows Issei Hyodo, a dim-witted, lecherous second-year high school
-      student<br> who is killed by a girl on his first date ever. Issei is reincarnated
-      as a demon,<br> and from that day forward, he serves as an underling of Rias Gremory,
-      a high-level demon<br> who is also the prettiest girl on Issei's campus
-  </p>
-
-
-</div>
 
 
 
@@ -81,6 +82,8 @@
 
 
 
+    <script src="/node_modules/aos/dist/aos.js"></script>
+    <script src="/assets/js/aos-init.js"></script>
 
   </body>
 </html>

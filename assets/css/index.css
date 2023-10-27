@@ -1,61 +1,10 @@
 body {
-    background-image: linear-gradient(to right, #0f3a73 , #537895);
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  background-image: linear-gradient(to right, #0f3a73, #537895);
+  margin: 0;
+  padding: 0;
 }
-
 
 .rias {
-    height: 35%;
-    width: 35%;
-    position: relative;
-    right: 1%;
-    
+  width: 35%;
+  display: flex;
 }
-
-
-.main {
-    color: rgb(252, 0, 233);
-}
-
-.paragraph {
-
-    color: rgb(85, 243, 11);
-    }
-
-
-    .dropdown-menu {
-
-        overflow: scroll;
-        max-height: 300px;
-        background-color: blueviolet;
-    }
-    
-
-    ::-webkit-scrollbar {
-        width: 20px;
-    }
-        
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px rgb(107, 255, 1);
-        border-radius: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: rgb(43, 7, 245);
-        border-radius: 10px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: #b30000;
-        }
-        
-
-
-
-
-  
-
- 
-    
